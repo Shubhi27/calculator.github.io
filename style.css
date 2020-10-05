@@ -1,0 +1,86 @@
+body{
+  background-image:url("Lawrencium.jpg");
+}
+.Calculator{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color:white;
+}
+.dataEntered{
+  text-align: right;
+  font-size: 1.5rem;
+  margin: 10px 20px;
+  padding:5px 10px 0 0;
+  font-weight: bold;
+  color: rgb(112,128,144);
+}
+.calci{
+  width:380px;
+  height:540px;
+  background-color: #D4D4D4;
+  box-shadow: 0 1px 6px white;
+  border-radius: 20px;
+  margin:0 auto;
+  position:relative;
+  top:25px;
+
+}
+.result{
+  height:180px;
+  overflow: auto;
+
+}
+
+.value{
+  text-align: right;
+  margin: 20px 20px;
+  padding:10px 5px 0 0;
+  font-size: 2.5rem;
+}
+.keyboard{
+  height:320px;
+}
+.number, .operator, .empty{
+  width: 51px;
+  height:36px;
+  margin:20px;
+  float:left;
+  border-radius: 50%;
+  border-width: 0;
+}
+.empty{
+  background-color: #D4D4D4;
+}
+.number, .operator{
+  cursor:pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.number{
+    background-color: grey;
+}
+.number:focus, .operator:focus, .empty:focus{
+  outline:0;
+}
+.operator{
+  background-color: white;
+}
+.dot{
+  background-color: grey;
+}
+.add{
+  background-color: rgb(0,206,209);
+}
+.subtract{
+  background-color: rgb(255,215,0);
+}
+.multiply{
+  background-color: rgb(221,160,221);
+}
+.divide{
+background-color:rgb(30,144,255);
+}
+.equal{
+  background-color: rgb(220,20,60);
+}
